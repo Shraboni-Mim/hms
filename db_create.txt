@@ -1,0 +1,12 @@
+-- Database: Hospital Management
+CREATE DATABASE IF NOT EXISTS hospital_management;
+
+USE hospital_management;
+
+CREATE TABLE IF NOT EXISTS Appointment (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    PHONE VARCHAR(15),
+    NAME VARCHAR(50),
+    APPT_DATE VARCHAR(30),
+    DOCTOR_NAME VARCHAR(50)
+);
